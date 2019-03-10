@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nav {
+    display: block;
+    position: sticky;
+    top: 0;
+    background: white;
+     width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 30px 0 30px 0;
+}
+.block_img{
+    float: left;
+    width: 140px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 17px;
+}
+.instagram-logo{
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_28230b6921ef.png/28230b6921ef.png);
+    background-size: 270px 227px;
+    background-position: -125px -128px;
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    float: left;
+}
+.nav_img {
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_28230b6921ef.png/28230b6921ef.png);
+    background-size: 270px 238px;
+    background-position: 0 -73px;
+    width: 100px;
+    height: 35px;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 5px;
+    float: right;
+}
+.trazi{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 65px 0;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+    padding: 5px 15px;
+    display: none;
+    position: relative;
+    left: 40%;
+    margin-right: 40%;
+    width: 215px;
+    height: 28px;
+}
+.nav_access{
+    position: relative;
+    top: -10px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+}
+.access_link {
+        text-decoration: none;
+        color: #3897f0;       
+}
+/* content */
+.main{
+    margin: 13px;
+    overflow: hidden;
+}
+
+.info{
+  margin-bottom: 20px;
+}
+.profile_img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.div_follow{
+  margin: -5px 0 0 38px;
+  float: left;
+}
+.account_name{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.about{
+  margin-top: 100px;
+}
+.about_text{
+  font-weight: 400;
+}
+.about_link{
+  color: #003569;
+  text-decoration: none;
+}
+
+.statistics{
+    display: block;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  list-style-type: none;
+  float: left;
+}
+.bg-size{
+  display: none;
+}
+.block{
+  padding: 10px 10% 10px 10%;
+  float: left;
+}
+.ime{
+  font-weight: 400;
+  color: #999;
+}
+.broj{
+  color: #262626;
+  text-align: center;
+}
+.icons{
+    list-style-type: none;
+    margin-top: 15px; 
+    padding-bottom: 40px;
+    display: block;   
+    width: 100%;
+}
+
+.decor{
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_28230b6921ef.png/28230b6921ef.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.images{
+    background-size: 270px 227px;
+    background-position: -221px -50px;
+    margin-left: 25%;
+   
+}
+.other{
+   background-size: 270px 227px;
+    background-position: -246px 0;
+    margin-left: 40%;
+}
+li > span{
+    display: none;
+}
+
+/* Main images conetnt */
+.img_section{
+    margin-top: 10px;
+}
+.images_row{
+    margin-top: -2.5px;
+}
+.img_div{
+    float: left;
+    width: 33.33%;
+    height: 22%;
+    border: 1.5px solid transparent;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 768px) {
+  body{
+      background: #fafafa;
+  }
+  .content{
+      margin: 20px;
+      display: block;
+  }
+  .nav{
+    padding: 25px;
+  }
+  .nav_access{
+    margin-top: 5px;
+  }
+    .trazi{
+       display: inline-block;
+       margin-top: -100px;
+   }
+   .instagram-logo{
+       display: inline-block;
+   }
+   .main{
+    margin: 50px 0 0 60px;
+    display: block;
+}
+   .div_follow{
+       width: 100%;
+       height: 40px;
+       margin-left: 250px;
+       margin-top: -140px;
+   }
+   .account_name{
+     float: left;
+   }
+   .profile_img{
+     display: block;
+       width: 150px;
+       height: 150px;
+   }
+   .sm-size{
+       display: none;
+   }
+   .bg-size{
+    display: block;
+    margin-left: 253px;
+    width: 100%;
+  }
+   .statistics{
+       border: 0;
+       margin-top: 200px;
+       margin-left: -4px;
+       position: absolute;
+       top:0;
+       width: 400px;
+   }
+   .block{
+     display: block;
+     margin-left: -36px;
+   }
+   .ime{
+    color: #262626;
+    font-weight: 400;
+    font-size: 16px;
+    float: left;
+   }
+   .broj{
+       margin-left: 5px;
+       float: left;
+   }
+   .about{
+       max-width: 70%;
+       font-size: 16px;
+   }
+
+   .icons{
+       width: 100%;
+       height: 40px;
+       padding: 10px;
+       position: relative;
+       border-top: 1px solid #e6e6e6;
+       margin-top: 40px;
+   }
+   .span_img{
+       float: left;
+       margin-top: 10px;
+       margin-left: 40%;
+       padding-top: 10px; 
+       position: absolute;
+       top: 0;
+       margin-top: -1px;
+       width: 130px;
+    }
+    .bt{
+      border-top: 1.5px solid #262626;
+    }
+
+   li > span{
+       display: inline-block;
+       color: #262626;
+       font-size: 12px;
+       font-weight: 600;
+       float: left;
+   }
+   .img_div{
+       border: 9px solid transparent;
+   }
+}
+@media screen and (min-width: 1024px){
+  .content{
+     max-width: 1024px;
+     margin-top: -25px;
+     margin: auto;
+  }
+}
+@media screen and (min-width: 1440px){
+  .info{
+      margin-left: 10px;
+  }
+  .div_follow{
+      margin-left: 240px;
+  }
+  
+}

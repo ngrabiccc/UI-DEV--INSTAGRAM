@@ -1,0 +1,52 @@
+
+.button{
+    color: white;
+    background: #3897f0;
+    border: 0;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+.mg{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.mg0{
+    margin-left: 0;
+}
+.button, .access_link, .about_title,
+.about_text.about_link , .ime, .broj, .header_button, .header_name
+{
+    font-size: 14px;
+}
+.access_link, .about_link, .about_title , .broj, .header_button, .header_name{
+    font-weight: 600;
+}
+
+/* grid */
+
+.gcs2{
+    grid-column-start: 2;
+}
+.gcs3{
+    grid-column-start: 3;
+}
+.gcs4{
+    grid-column-start: 4;
+}
+
+
+.m{
+    margin-left: 55%;
+}
+
+.mgl17{
+    margin-left: 25px;
+}
+.fsb{
+    font-size: 14px;
+}
